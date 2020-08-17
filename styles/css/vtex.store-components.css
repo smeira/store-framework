@@ -1,36 +1,44 @@
 .infoCardHeadline {
     font-family: serif;
     font-size: 2.25rem;
-    font-weight: bold;
+    font-weight: normal;
     color: black;
     border: 2px solid black;
-    padding: 0;
+    padding: 0px;
     max-width: 1260px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 .infoCardCallActionContainer :global(.vtex-button) {
     color: white;
     background-color: gray;
     border: transparent;
+    padding: 0px;
     max-width: 1260px;
     margin: 0 auto;
-    padding: 0; 
 }
 
 .infoCardCallActionContainer :global(.vtex-button):hover {
     color: gray;
     background-color: white;
     border: transparent;
+    padding: 0px;
     max-width: 1260px;
     margin: 0 auto;
-    padding: 0; 
+}
+
+.infoCardContainer {
+  font-weight: bold;
+  color: black;
+  padding: 0;
+  max-width: 1260px;
+  margin: 0 auto;
 }
 
 .infoCardContainer--vintage {
-    background-color: #edcfd1
-  }
+  background-color: #edcfd1;
+}
 
-  .infoCardContainer--metal {
-    background-color: #e1e1e1
-  }
+.infoCardContainer--metal {
+  background-color: #e1e1e1;
+}
