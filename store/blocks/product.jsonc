@@ -2,6 +2,7 @@
   "store.product": {
     "children": [
       "breadcrumb",
+      "flex-layout.row#qty-sku",
       "flex-layout.row#main",
       "flex-layout.col#left",
       "flex-layout.col#right"
@@ -44,6 +45,11 @@
 },
 
 "breadcrumb": {
+  "props": {
+    "showOnMobile": true
+  },
+
+
 "children": [ 
   "product-price",
   "flex-layout.row#qty-sku"
@@ -64,3 +70,4 @@
   }
 }
 }
+
