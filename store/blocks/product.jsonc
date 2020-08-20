@@ -56,5 +56,11 @@
   "product-quantity",
   "shipping-simulator"
 ]
+},
+
+"shipping-simulator": {
+  "props": {
+    "skuID": "342"
+  }
 }
 }
