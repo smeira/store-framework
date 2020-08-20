@@ -33,6 +33,7 @@
       "product-name", 
       "product-identifier.product",
       "product-price",
+      "flex-layout.row#qty-sku",
       "buy-button"
     ]
   },
@@ -50,12 +51,6 @@
   },
 
 
-"children": [ 
-  "product-price",
-  "flex-layout.row#qty-sku"
-]
-},
-
 "flex-layout.row#qty-sku": {
 "children": [
   "sku-selector",
@@ -68,6 +63,7 @@
   "props": {
     "skuID": "342"
   }
+}
 }
 }
 
